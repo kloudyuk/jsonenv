@@ -61,6 +61,6 @@ func main() {
 		os.Exit(1)
 	}
 	for k, v := range data {
-		fmt.Printf("export %s='%s'\n", k, v)
+		fmt.Printf("export %s=%s\n", k, v)
 	}
 }
